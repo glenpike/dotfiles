@@ -1,0 +1,38 @@
+#!/bin/bash
+
+export PATH=$PATH:$HOME/bin
+
+#Ruby version manager
+
+export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+
+#NODE_JS stuff
+
+#May be redundant?
+# NPM_PACKAGES="/home/ski/.npm-packages"
+# NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
+# PATH="$NPM_PACKAGES/bin:$PATH"
+# # Unset manpath so we can inherit from /etc/manpath via the `manpath`
+# # command
+# unset MANPATH  # delete if you already modified MANPATH elsewhere in your config
+# MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
+# 
+
+export NVM_DIR="/home/ski/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+#Python env manager
+
+export PYENV_ROOT="${HOME}/.pyenv"
+
+if [ -d "${PYENV_ROOT}" ]; then
+  export PATH="${PYENV_ROOT}/bin:${PATH}"
+  eval "$(pyenv init -)"
+fi
+
+#Android
+
+export ANDROID_HOME=~/android-sdk-linux/
+
+export PATH=$PATH:/repos/env/deploy

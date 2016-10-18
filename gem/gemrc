@@ -1,0 +1,2 @@
+#disable the documentation install
+gem: --no-document
