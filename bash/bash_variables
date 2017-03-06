@@ -38,5 +38,10 @@ export ANDROID_HOME=~/android-sdk-linux/
 export PATH=$PATH:/repos/env/deploy
 
 #Go
+export GOROOT=/usr/local/go
 
 export PATH=$PATH:/usr/local/go/bin
+
+#GCloud
+#
+export PATH=$PATH:$HOME/google-cloud-sdk/bin

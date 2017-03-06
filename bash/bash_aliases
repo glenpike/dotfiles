@@ -79,3 +79,10 @@ alias o="xdg-open"
 #             && npm install -g npm \
 #             && npm upgrade -g"
 
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Go helpers
+
+alias gop="export GOPATH=\${PWD} && go env"
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
