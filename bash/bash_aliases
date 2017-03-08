@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+#Local aliases
+
+alias gop='export GOPATH=`pwd` && go env'
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."

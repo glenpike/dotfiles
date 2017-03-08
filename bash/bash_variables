@@ -19,7 +19,7 @@ export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 # MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 # 
 
-export NVM_DIR="/home/ski/.nvm"
+export NVM_DIR="${HOME}/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 #Python env manager
@@ -32,16 +32,11 @@ if [ -d "${PYENV_ROOT}" ]; then
 fi
 
 #Android
-
 export ANDROID_HOME=~/android-sdk-linux/
 
-export PATH=$PATH:/repos/env/deploy
-
-#Go
+#Golang
 export GOROOT=/usr/local/go
-
 export PATH=$PATH:/usr/local/go/bin
 
 #GCloud
-#
 export PATH=$PATH:$HOME/google-cloud-sdk/bin
