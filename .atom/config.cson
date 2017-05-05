@@ -1,0 +1,51 @@
+"*":
+  core:
+    autoHideMenuBar: true
+    customFileTypes:
+      "source.coffee": [
+        "cjsx"
+      ]
+      "source.coffeescript": [
+        "cjsx"
+      ]
+      "source.ini": [
+        ".buckconfig"
+        ".hgrc"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+      "source.ts": [
+        "tsx"
+      ]
+    disabledPackages: [
+      "whitespace"
+      "nuclide"
+    ]
+    telemetryConsent: "no"
+  editor:
+    fontSize: 12
+    invisibles: {}
+    showInvisibles: true
+  "exception-reporting":
+    userId: "3a54be3b-3098-49a7-bcb5-14c7abc0c3cf"
+  nuclide:
+    "nuclide-file-tree":
+      hideIgnoredNames: false
+    "nuclide-home":
+      showHome: false
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+".coffee.source":
+  editor:
+    showInvisibles: true
+  "tree-view":
+    hideIgnoredNames: false
