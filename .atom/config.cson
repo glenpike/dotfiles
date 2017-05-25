@@ -1,6 +1,8 @@
 "*":
+  "atom-beautify":
+    js: {}
+    jsx: {}
   core:
-    autoHideMenuBar: true
     customFileTypes:
       "source.coffee": [
         "cjsx"
@@ -20,32 +22,26 @@
       "source.python": [
         "BUCK"
       ]
-      "source.ts": [
-        "tsx"
-      ]
     disabledPackages: [
-      "whitespace"
       "nuclide"
     ]
     telemetryConsent: "no"
-  editor:
-    fontSize: 12
-    invisibles: {}
-    showInvisibles: true
+    themes: [
+      "one-dark-ui"
+      "dracula-syntax"
+    ]
   "exception-reporting":
-    userId: "3a54be3b-3098-49a7-bcb5-14c7abc0c3cf"
+    userId: "11222f94-3495-41f7-85f3-b3f10e864731"
   nuclide:
-    "nuclide-file-tree":
-      hideIgnoredNames: false
+    "nuclide-flow":
+      warnOnNotInstalled: false
     "nuclide-home":
       showHome: false
-  "tree-view": {}
   welcome:
     showOnStartup: false
-  whitespace:
-    ignoreWhitespaceOnCurrentLine: false
-".coffee.source":
+".editorconfig.source":
   editor:
+    invisibles: {}
     showInvisibles: true
-  "tree-view":
-    hideIgnoredNames: false
+    showIndentGuide: true
+    tabLength: 4
