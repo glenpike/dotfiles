@@ -39,9 +39,12 @@
       showHome: false
   welcome:
     showOnStartup: false
+  whitespace: {}
+".csv.text":
+  whitespace:
+    ensureSingleTrailingNewline: false
 ".editorconfig.source":
   editor:
-    invisibles: {}
-    showInvisibles: true
     showIndentGuide: true
+    showInvisibles: true
     tabLength: 4

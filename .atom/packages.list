@@ -9,6 +9,7 @@ emmet-jsx-css-modules@1.0.0
 es6-javascript@1.0.0
 intentions@1.1.2
 language-babel@2.57.1
+language-csv@1.1.2
 linter@2.1.0
 linter-ui-default@1.1.0
 nuclide@0.209.0
