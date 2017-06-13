@@ -30,6 +30,8 @@
       "one-dark-ui"
       "dracula-syntax"
     ]
+  editor:
+    showInvisibles: true
   "exception-reporting":
     userId: "11222f94-3495-41f7-85f3-b3f10e864731"
   nuclide:
