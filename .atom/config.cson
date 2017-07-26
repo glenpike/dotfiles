@@ -1,0 +1,55 @@
+"*":
+  "atom-beautify":
+    js: {}
+    jsx: {}
+  core:
+    customFileTypes:
+      "source.coffee": [
+        "cjsx"
+      ]
+      "source.coffeescript": [
+        "cjsx"
+      ]
+      "source.ini": [
+        ".buckconfig"
+        ".hgrc"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "nuclide"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "dracula-syntax"
+    ]
+  editor:
+    showInvisibles: true
+  "exception-reporting":
+    userId: "11222f94-3495-41f7-85f3-b3f10e864731"
+  "linter-ui-default":
+    panelHeight: 112
+    showPanel: true
+  nuclide:
+    "nuclide-flow":
+      warnOnNotInstalled: false
+    "nuclide-home":
+      showHome: false
+  welcome:
+    showOnStartup: false
+  whitespace: {}
+".csv.text":
+  whitespace:
+    ensureSingleTrailingNewline: false
+".editorconfig.source":
+  editor:
+    showIndentGuide: true
+    showInvisibles: true
+    tabLength: 4
