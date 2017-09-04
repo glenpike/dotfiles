@@ -31,9 +31,12 @@
       "dracula-syntax"
     ]
   editor:
+    preferredLineLength: 100
     showInvisibles: true
   "exception-reporting":
     userId: "11222f94-3495-41f7-85f3-b3f10e864731"
+  "file-types":
+    "^Dockerfile\\..*$": "source.dockerfile"
   "linter-ui-default":
     panelHeight: 112
     showPanel: true
