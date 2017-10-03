@@ -39,7 +39,7 @@
   "file-types":
     "^Dockerfile\\..*$": "source.dockerfile"
   "linter-ui-default":
-    panelHeight: 112
+    panelHeight: 71
     showPanel: true
   nuclide:
     "nuclide-flow":
