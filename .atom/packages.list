@@ -10,11 +10,10 @@ es6-javascript@1.0.0
 intentions@1.1.5
 language-babel@2.57.1
 language-csv@1.1.2
-language-docker@1.1.8
-linter@2.2.0
-linter-eslint@8.3.2
-linter-swagger@0.4.2
-linter-ui-default@1.2.4
+linter@2.1.0
+linter-eslint@8.2.1
+linter-ui-default@1.1.0
+markdown-pdf@1.5.4
 nuclide@0.209.0
 react-es7-snippets@0.3.13
 tabs-to-spaces@1.0.3
