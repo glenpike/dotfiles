@@ -24,6 +24,9 @@
       ]
     disabledPackages: [
       "nuclide"
+      "linter"
+      "atom-typescript"
+      "whitespace"
     ]
     telemetryConsent: "no"
     themes: [
@@ -31,7 +34,7 @@
       "dracula-syntax"
     ]
   editor:
-    fontSize: 15
+    fontSize: 12
     preferredLineLength: 100
     showInvisibles: true
   "exception-reporting":
@@ -46,6 +49,11 @@
       warnOnNotInstalled: false
     "nuclide-home":
       showHome: false
+  "prettier-atom":
+    prettierOptions:
+      singleQuote: true
+      trailingComma: "all"
+    useEslint: true
   welcome:
     showOnStartup: false
   whitespace: {}
