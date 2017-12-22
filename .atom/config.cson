@@ -2,6 +2,11 @@
   "atom-beautify":
     js: {}
     jsx: {}
+  "atom-ide-ui":
+    use:
+      "atom-ide-diagnostics-ui": false
+  "atom-package-deps":
+    ignored: []
   core:
     customFileTypes:
       "source.coffee": [
@@ -23,9 +28,6 @@
         "BUCK"
       ]
     disabledPackages: [
-      "nuclide"
-      "linter"
-      "atom-typescript"
       "whitespace"
     ]
     telemetryConsent: "no"
