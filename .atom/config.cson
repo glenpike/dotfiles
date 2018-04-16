@@ -1,69 +1,18 @@
 "*":
-  "atom-beautify":
-    js: {}
-    jsx: {}
   "atom-ide-ui":
     use:
-      "atom-ide-diagnostics-ui": false
-  "atom-package-deps":
-    ignored: []
+      "atom-ide-diagnostics-ui": "never"
   core:
-    customFileTypes:
-      "source.coffee": [
-        "cjsx"
-      ]
-      "source.coffeescript": [
-        "cjsx"
-      ]
-      "source.ini": [
-        ".buckconfig"
-        ".hgrc"
-        ".flowconfig"
-      ]
-      "source.json": [
-        ".arcconfig"
-        "BUCK.autodeps"
-      ]
-      "source.python": [
-        "BUCK"
-      ]
-    disabledPackages: [
-      "whitespace"
-    ]
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
       "dracula-syntax"
     ]
-  editor:
-    fontSize: 12
-    preferredLineLength: 100
-    showInvisibles: true
+  editor: {}
   "exception-reporting":
-    userId: "11222f94-3495-41f7-85f3-b3f10e864731"
-  "file-types":
-    "^Dockerfile\\..*$": "source.dockerfile"
+    userId: "622db574-e76e-4d59-a885-21fb7d15d0f9"
   "linter-ui-default":
     panelHeight: 71
     showPanel: true
-  nuclide:
-    "nuclide-flow":
-      warnOnNotInstalled: false
-    "nuclide-home":
-      showHome: false
-  "prettier-atom":
-    prettierOptions:
-      singleQuote: true
-      trailingComma: "all"
-    useEslint: true
   welcome:
     showOnStartup: false
-  whitespace: {}
-".csv.text":
-  whitespace:
-    ensureSingleTrailingNewline: false
-".editorconfig.source":
-  editor:
-    showIndentGuide: true
-    showInvisibles: true
-    tabLength: 4
