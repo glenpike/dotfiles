@@ -22,3 +22,6 @@ if [ -f "$HOME/google-cloud-sdk/path.bash.inc" ]; then source "$HOME/google-clou
 # The next line enables shell command completion for gcloud.
 if [ -f "$HOME/google-cloud-sdk/completion.bash.inc" ]; then source "$HOME/google-cloud-sdk/completion.bash.inc"; fi
 
+# Git auto completion
+# https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
+if [ -f "$HOME/git-completion.bash" ]; then source "$HOME/git-completion.bash"; fi
