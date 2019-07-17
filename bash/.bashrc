@@ -10,3 +10,6 @@ export BASH_DIR=~/dotfiles/bash
 
 ##DON'T COMMIT THE FOLLOWING!
 . $BASH_DIR/bash_local
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
