@@ -1,3 +1,5 @@
+# echo ".bashrc"
+
 export BASH_DIR=~/dotfiles/bash
 
 . $BASH_DIR/bash_aliases
@@ -13,3 +15,7 @@ export BASH_DIR=~/dotfiles/bash
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+# #asdf
+# . $HOME/.asdf/asdf.sh
+# . $HOME/.asdf/completions/asdf.bash

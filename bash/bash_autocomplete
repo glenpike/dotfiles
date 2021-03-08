@@ -25,3 +25,4 @@ if [ -f "$HOME/google-cloud-sdk/completion.bash.inc" ]; then source "$HOME/googl
 # Git auto completion
 # https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
 if [ -f "$HOME/git-completion.bash" ]; then source "$HOME/git-completion.bash"; fi
+
